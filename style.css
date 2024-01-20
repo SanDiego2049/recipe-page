@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+.first-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+}
+
+.second-container_image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-heading {
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  padding: 0 20px;
+}
+
+.section-text {
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
+.second-container {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 8px;
+  margin: 0 20px;
+}
+
+.second-container_heading {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: hsl(332, 51%, 32%);
+  padding: 20px 0 0 20px;
+}
+
+.section-heading_bold {
+  color: black;
+}
+
+ul {
+  padding-bottom: 10px;
+}
+
+ol {
+  margin-right: 20px;
+}
+
+li {
+  padding: 10px 0 0 10px;
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+ol li::marker {
+  padding-right: 5%;
+}
+
+.straight-line {
+  width: 85%;
+  margin-top: 40px;
+}
+
+.nutrition-table {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-bottom: 5vh;
+}
+
+.nutrition-table_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.first-col {
+  width: 50%;
+}
+
+.second-col {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  width: 50%;
+}
+
+.nutrition-straight-line {
+  width: 100%;
+  margin: auto;
+}
