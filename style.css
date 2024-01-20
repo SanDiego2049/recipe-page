@@ -3,12 +3,17 @@ body {
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Outfit";
 }
 
 @font-face {
   font-family: "Young Serif";
   src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf");
 }
 
 .first-container {
@@ -24,7 +29,7 @@ body {
 .section-heading {
   font-family: "Young Serif";
   color: hsl(14, 45%, 36%);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-bottom: 0;
   padding: 0 20px;
 }
@@ -49,6 +54,7 @@ body {
 
 .section-heading_bold {
   color: black;
+  font-size: 1.7rem;
 }
 
 ul {
